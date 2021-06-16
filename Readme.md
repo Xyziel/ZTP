@@ -55,5 +55,6 @@ shelter_shelter_roles, shelter_shelter_animals, shelter_shelter_users, shelter_s
 Windows: \i 'sciezka do skryptu' (np. \i 'C:\\plik.sql')
 
 Linux: \i sciezka do skryptu
+
 W razie problemow patrz:
 https://stackoverflow.com/questions/13682739/postgresql-permission-denied-when-reading-from-file-with-i-command
