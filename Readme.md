@@ -9,7 +9,9 @@ Zainstalowany Node.js
 
 ### Uruchomienie aplikacji:
 By uruchomic aplikacje nalezy przejsc do folderu frontend (znajduja sie tam pliki np package.json)
+
 `npm install`
+
 `npm start`
 
 
