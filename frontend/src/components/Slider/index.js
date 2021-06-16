@@ -15,7 +15,7 @@ function mapAnimalToCaruselItems(animals, interestedIds, likes, addInterestFunc,
                           addInterestFunc={addInterestFunc}
                           deleteInterestFunc={deleteInterestFunc}
                           isLoggedIn={isLoggedIn}/>
-                {i <= animals.length - 1? <AnimalCard key={animals[i+1].idAnimal}
+                {i < animals.length - 1? <AnimalCard key={animals[i+1].idAnimal}
                                                       animal={animals[i+1]}
                                                       isInterested={interestedIds.includes(animals[i+1].idAnimal)}
                                                       persons={likes[animals[i+1].idAnimal]}

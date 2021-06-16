@@ -9,7 +9,9 @@ Zainstalowany Node.js
 
 ### Uruchomienie aplikacji:
 By uruchomic aplikacje nalezy przejsc do folderu frontend (znajduja sie tam pliki np package.json)
+
 `npm install`
+
 `npm start`
 
 
@@ -49,7 +51,10 @@ UWAGA! Jesli windows: polecenia nalezy uruchomic z folderu bin postgresa.
 3. Nastepnie zalezy przelaczyc sie na utworzona baze: `\c shelter`
 4. Uruchomic kolejno skrypty sql: script, shelter_shelter_breeds, shelter_shelter_sizes, 
 shelter_shelter_roles, shelter_shelter_animals, shelter_shelter_users, shelter_shelter_interests
+
 Windows: \i 'sciezka do skryptu' (np. \i 'C:\\plik.sql')
+
 Linux: \i sciezka do skryptu
+
 W razie problemow patrz:
 https://stackoverflow.com/questions/13682739/postgresql-permission-denied-when-reading-from-file-with-i-command
