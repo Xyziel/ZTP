@@ -1,0 +1,48 @@
+.tableNames {
+    text-align: center;
+}
+
+.id {
+    width: 10%;
+}
+
+.action {
+    width: 15%;
+}
+
+.deleteButton {
+    padding: 0;
+    width: 90%;
+}
+
+.idColumn {
+    text-align: center;
+}
+
+.actionColumn {
+    text-align: center;
+}
+
+.tableContainer {
+    width: 50%;
+    max-height: 500px;
+    overflow: scroll;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.addEmployeeContainer {
+    margin-top: 15px;
+    width: 50%;
+    text-align: center;
+}
+
+.addLabel {
+    color: #465763;
+    font-family: "Britannic Bold", monospace;
+    font-size: 1.5em;
+}
+
+.tx-lf {
+    text-align: left;
+}

@@ -1,0 +1,16 @@
+.bg-lighter {
+    background-color: #3b3b3b;
+}
+
+#homeLabel {
+    font-family: "Verdana", sans-serif;
+    color: #f2f2f2;
+}
+
+#homeLabel:hover {
+    color: white;
+}
+
+.w-103p {
+    width: 103px;
+}

@@ -1,0 +1,19 @@
+.sliderContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 400px;
+    background-image: url("/src/styles/img/meadow.jpg");
+    margin: 25px 0;
+}
+
+.sliderLabel {
+    color: #f2f2f2;
+    font-family: "Comic Sans MS", sans-serif;
+    font-size: 3em;
+    text-align: center;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    width: 8%;
+}

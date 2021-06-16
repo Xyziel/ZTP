@@ -1,0 +1,36 @@
+.popup {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: rgba(0,0,0, 0.5);
+}
+
+.popupInner {
+    position: absolute;
+    left: 40%;
+    right: 40%;
+    top: 10%;
+    margin: auto;
+    background: white;
+    border-radius: 20px;
+    text-align: right;
+}
+
+.close {
+    border: none;
+    background-color: white;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+.popupInner p {
+    text-align: center;
+}
+
+.popupInner form {
+    text-align: left;
+}

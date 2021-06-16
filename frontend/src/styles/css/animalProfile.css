@@ -1,0 +1,39 @@
+.animalProfileContainer {
+    width: 60%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.imageData {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /*margin-top: 15px;*/
+}
+
+.data {
+    width: 50%;
+    font-weight: bold;
+}
+
+.animalImageProfile {
+    width: 50%;
+}
+
+.animalProfileName {
+    font-size: 2em;
+    font-family: "Trebuchet MS", sans-serif;
+    color: #545454;
+
+}
+
+.descriptionProfile {
+    margin-top: 10px;
+    font-size: 0.8em;
+    font-family: "Verdana", sans-serif;
+    text-align: justify;
+}
+
+.lf-auto {
+    left: auto;
+}

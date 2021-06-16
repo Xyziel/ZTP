@@ -1,0 +1,3 @@
+INSERT INTO shelter.users (id_user, email, password, role_id) VALUES (1, 'admin@gmail.com', '$2a$10$bZLNhfdzCZUSkSdsCASG/er8gIp6RjhzwPDQGj5.4O.SSQOZqXrQ6', 3);
+INSERT INTO shelter.users (id_user, email, password, role_id) VALUES (19, 'user@gmail.com', '$2a$10$2xkN4hryQbeUjqO8sgfToesDyVrjL9JKhvd0nmr8otXQ6lbg/V/Iy', 1);
+INSERT INTO shelter.users (id_user, email, password, role_id) VALUES (20, 'employee@gmail.com', '$2a$10$NLOTTleOgD0fOgGthH/nAuBbigUfyrMYkCmWBJsndPCTeZ21rDKMe', 2);
