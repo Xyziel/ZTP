@@ -25,13 +25,18 @@ Zainstalowany JDK z ustawionym environment path JAVA_HOME
 
 ### Uruchomienie aplikacji:
 By uruchomic aplikacje nalezy przejsc do folderu backend (znajduja sie tam pliki pom oraz mvnw)
-`./mvnw spring-boot:run`
+
+Windows: `mvnw spring-boot:run`
+
+Linux:  `./mvnw spring-boot:run`
 
 ### Testy:
 By uruchomic wszystkie przygotowane testy nalezy przejsc do folderu shelter (znajduja sie tam pliki pom oraz mvnw) 
 ,a nastepnie z poziomu terminala/cmd uruchomiec polecenie: 
 
-`./mvnw verify` 
+Windows: `mvnw verify`
+
+Linux:  `./mvnw verify` 
 
 Chcac uruchomic pojedyncze testy nalezy
 uruchomic polecenie 
