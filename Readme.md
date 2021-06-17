@@ -50,7 +50,7 @@ UWAGA! Jesli windows: polecenia nalezy uruchomic z folderu bin postgresa.
 2. Nastepnie stworzyc baze danych poleceniem: `create database shelter`;
 3. Nastepnie zalezy przelaczyc sie na utworzona baze: `\c shelter`
 4. Uruchomic kolejno skrypty sql: script, shelter_shelter_breeds, shelter_shelter_sizes, 
-shelter_shelter_roles, shelter_shelter_animals, shelter_shelter_users, shelter_shelter_interests
+shelter_shelter_roles, shelter_shelter_animals, shelter_shelter_users
 
 Windows: \i 'sciezka do skryptu' (np. \i 'C:\\plik.sql')
 
@@ -58,3 +58,13 @@ Linux: \i sciezka do skryptu
 
 W razie problemow patrz:
 https://stackoverflow.com/questions/13682739/postgresql-permission-denied-when-reading-from-file-with-i-command
+
+Do aplikacji mozna zalogowac się za pomoca stworzonych juz wczesniej kont:
+
+User: user@gmail.com, user
+
+Pracownik: employee@gmail.com, employee
+
+Admin: admin@gmail.com, admin
+
+

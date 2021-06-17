@@ -33,11 +33,11 @@ export function setUserInterests(ids) {
 export const getAnimals = (isEmployee, isLoggedIn) => (dispatch) => {
     axios.get("http://localhost:8080/animal")
         .then((response) => {
-            dispatch(setAnimals(response.data));
             dispatch(getAnimalsLikes(response.data));
             if(!isEmployee && isLoggedIn) {
                 dispatch(getUserInterests());
             }
+            dispatch(setAnimals(response.data));
         })
             .catch((e) => {
                 alert("Nie możemy w tej chwili pokazać Ci naszych zwierząt. Przepraszamy.")
